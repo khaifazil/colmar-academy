@@ -1,0 +1,197 @@
+/*UNIVERSAL STYLES*/
+
+* {
+    --border: 1px solid red;
+}
+
+body {
+    font-size: 16px;
+    background-color: white;
+    color: rgb(68, 68, 68);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    padding-top: 64px;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/*HEADER SECTION*/
+
+header {
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    margin-right: 1.5rem;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+header .logo {
+    height: 3rem;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 1.5rem;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.logo p {
+    color: rgb(73, 73, 73);
+    font-size: 1.5rem;
+}
+
+span {
+    color: gray;
+    font-weight: lighter;
+}
+
+header nav li {
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+}
+
+/*Main Section*/
+
+main {
+    width: 100%;
+}
+
+/*BANNER*/
+
+.banner {
+    background-color: lightgray;
+    align-items: center;
+    width: 100%;
+
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.content {
+    width: 25%;
+    margin-left: 1.5rem;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 550;
+    margin-bottom: 2rem;
+}
+
+.content div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    color: seashell;
+    padding: 1rem 0;
+}
+
+.button p {
+    font-size: 1.5rem;
+}
+
+/*Featured Section*/
+
+.featured {
+    justify-content: left;
+}
+
+.quote {
+    width: 60%;
+    padding: 2rem 1.5rem;
+    border-right: 1.5px solid rgb(216, 216, 216);
+}
+
+.quote img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.quote p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    color: rgb(114, 114, 114);
+}
+
+.side-panel {
+    margin: 1rem 0rem;
+}
+
+.sub-feature {
+    padding: 1rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(216, 216, 216);
+}
+
+.sub-feature div {
+    margin-left: 1rem;
+}
+
+.sub-feature img {
+    width: 35%;
+    height: auto;
+}
+
+.sub-feature a {
+    color: rgb(0, 136, 248);
+    font-size: 1.2rem;
+}
+
+.sub-feature h3 {
+    font-weight: 550;
+    font-size: 2rem;
+}
+
+.sub-feature p {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+/*Courses section*/
+
+.courses {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
