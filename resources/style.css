@@ -41,7 +41,7 @@ header {
     justify-content: space-between;
     height: 4rem;
     align-items: center;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     position: fixed;
     z-index: 1;
     background-color: white;
@@ -71,8 +71,11 @@ span {
 }
 
 header nav li {
-    margin: 0 1.5rem;
+    margin: 0 .5rem;
     font-size: 1.5rem;
+}
+.special {
+    margin-right: 1.5rem;
 }
 
 /*Main Section*/
@@ -96,7 +99,7 @@ main {
     margin: 2rem 1.5rem;
 }
 
-.content {
+.banner .content {
     width: 25%;
     margin-left: 1.5rem;
 }
@@ -134,7 +137,7 @@ main {
     justify-content: left;
 }
 
-.quote {
+.featured .quote {
     width: 60%;
     padding: 2rem 1.5rem;
     border-right: 1.5px solid rgb(216, 216, 216);
@@ -153,8 +156,14 @@ main {
     color: rgb(114, 114, 114);
 }
 
+#quoter {
+    margin: 0;
+}
+
 .side-panel {
     margin: 1rem 0rem;
+    width: 40%;
+    overflow: hidden;
 }
 
 .sub-feature {
@@ -189,9 +198,139 @@ main {
     margin: 2rem 0;
 }
 
+.sub-feature:hover {
+    background-color: lightgray;
+}
+
 /*Courses section*/
 
 .courses {
-    justify-content: space-evenly;
+    background-color: lightgray;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 0 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.courses h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.courses .course {
+    box-sizing: ;
+    width: 30%;
+
+    margin: 1rem 1rem;
+    background-color: white;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.course .content {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.course .content p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    padding: .5rem 0;
+    color: gray;
+}
+
+/*Thesis section*/
+
+.thesis {
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.thesis h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.thesis .quote {
+    width: 60%;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.quote video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border: lightgray;
+}
+
+.quote h3 {
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-bottom: 1rem
+    ;
+}
+
+.thesis .quote p {
+    margin: 0;
+}
+
+.thesis .side-panel {
+    width: 40%;
+}
+
+.sub-thesis {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.sub-thesis:hover {
+    background-color: lightgray;
+}
+
+.sub-thesis img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+
+.sub-thesis h3 {
+    font-weight: 550;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.sub-thesis p {
+    font-size: 1.3rem;
+    margin: 2rem 0;
+    margin-right: 3rem;
+    line-height: 2rem;
+    color: gray;
+}
+
+/*Footer*/
+
+footer {
+    padding: 1rem 1.5rem 4rem 1.5rem;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}
+
+footer li {
+    margin-left: .5rem;
 }
